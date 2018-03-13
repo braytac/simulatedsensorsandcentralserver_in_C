@@ -13,6 +13,7 @@ fi
 gcc src/servidor_UDP.c -o bin/servidor_UDP
 gcc src/servidor_WEB.c -o bin/servidor_WEB
 gcc src/PS0.c -o bin/PS0
+gcc src/simular_envio_sensores_rnd.c -o bin/simular_envio_sensores_rnd
 #gcc src/simular_envio_sensores_rnd.c -o bin/simular_envio_sensores_rnd
 cd bin
 var="$comando --geometry 90x15+0+0  -e 'bash -c \"echo Ejecutando servidor UDP;./servidor_UDP;read;\"' "
